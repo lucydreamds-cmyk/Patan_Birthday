@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Birthday Journey ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="gradient-bg"></div>
+    <div class="grain"></div>
+
+    <!-- GLOBAL FLOATING ORNAMENTS -->
+    <div class="ornament heart o1">♡</div>
+    <div class="ornament heart o2">♡</div>
+    <div class="ornament heart o3">♡</div>
+
+    <div class="ornament star o4">✦</div>
+    <div class="ornament star o5">✧</div>
+    <div class="ornament star o6">✦</div>
+    <div class="ornament star o7">✧</div>
+
+    <div class="ornament flower o8">✿</div>
+    <div class="ornament flower o9">✿</div>
+
+    <div class="ornament dot o10"></div>
+    <div class="ornament dot o11"></div>
+    <div class="ornament dot o12"></div>
+
+    <!-- BALLOONS THAT ARE ALWAYS PRESENT -->
+    <div class="floating-balloon fb1 pink-balloon"></div>
+    <div class="floating-balloon fb2 blue-balloon"></div>
+    <div class="floating-balloon fb3 cream-balloon"></div>
+    <div class="floating-balloon fb4 pink-balloon"></div>
+
+    <!-- TOP BAR -->
+    <header class="topbar">
+        <span>A LITTLE BIRTHDAY JOURNEY</span>
+        <span id="pageNumber">01 / 10</span>
+    </header>
+
+
+    <!-- MUSIC -->
+    <audio id="birthdayMusic" loop preload="auto">
+        <source src="music/happy-birthday.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- WEBSITE -->
+    <main id="website">
+
+
+        <!-- =====================================
+             01 — OPENING
+        ====================================== -->
+
+        <section class="page active" id="page1">
+
+            <div class="opening">
+
+                <div class="small-label">
+                    ✦ A LITTLE BIRTHDAY JOURNEY ✦
+                </div>
+
+                <h1>
+                    <span>Happy</span>
+                    <em>Birthday!</em>
+                </h1>
+
+                <h2>Patan</h2>
+
+                <p>
+                    Another year, another chapter,<br>
+                    another little story waiting to unfold.
+                </p>
+
+                <button class="next-btn" onclick="nextPage()">
+                    NEXT →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             02 — BIRTHDAY NOTE
+        ====================================== -->
+
+        <section class="page" id="page2">
+
+            <div class="normal-page">
+
+                <div class="small-label">
+                    ✿ A LITTLE BIRTHDAY NOTE ✿
+                </div>
+
+                <h1>A Little Birthday<br>Note</h1>
+
+                <p class="subtitle">
+                    Just a few words for your special day.
+                </p>
+
+                <article class="paper">
+
+                    <span class="paper-decoration top-left">✿</span>
+                    <span class="paper-decoration top-right">♡</span>
+
+                    <p>
+                        Happy birthday, Patan. Another year has arrived,
+                        and somehow another little chapter of your story
+                        begins again.
+                    </p>
+
+                    <p>
+                        I don't really know how to put everything into
+                        one perfect birthday message. So instead, think
+                        of this website as a small collection of words,
+                        memories, jokes, and wishes that I wanted to leave
+                        here for you.
+                    </p>
+
+                    <p>
+                        I hope this year gives you plenty of reasons to
+                        smile. I hope there are unexpected good days,
+                        funny conversations, random moments, and little
+                        things that make an ordinary day feel special.
+                    </p>
+
+                    <p>
+                        And even when things don't go exactly as planned,
+                        I hope you remember that one bad day doesn't
+                        define an entire year.
+                    </p>
+
+                    <div class="quote">
+                        “May this year be gentle with you,
+                        and full of things worth remembering.”
+                    </div>
+
+                    <div class="signature">
+                        with good wishes,<br>
+                        <span>from me ♡</span>
+                    </div>
+
+                </article>
+
+                <button class="next-btn" onclick="nextPage()">
+                    NEXT →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             03 — LITTLE THINGS
+        ====================================== -->
+
+        <section class="page" id="page3">
+
+            <div class="normal-page">
+
+                <div class="small-label">
+                    ✦ LITTLE THINGS ✦
+                </div>
+
+                <h1>
+                    Little Things<br>
+                    Worth Remembering
+                </h1>
+
+                <p class="subtitle">
+                    Sometimes the smallest things become
+                    the memories we keep the longest.
+                </p>
+
+                <div class="memory-grid">
+
+                    <div class="memory-card">
+                        <span>01</span>
+                        <h3>Random Conversations</h3>
+                        <p>
+                            The conversations that start from absolutely
+                            nothing and somehow become something worth
+                            remembering.
+                        </p>
+                    </div>
+
+                    <div class="memory-card">
+                        <span>02</span>
+                        <h3>Little Laughs</h3>
+                        <p>
+                            The stupid jokes, random moments, and tiny
+                            things that somehow make an ordinary day
+                            better.
+                        </p>
+                    </div>
+
+                    <div class="memory-card">
+                        <span>03</span>
+                        <h3>Unexpected Moments</h3>
+                        <p>
+                            Some of the best memories aren't planned.
+                            They simply happen and stay with us.
+                        </p>
+                    </div>
+
+                    <div class="memory-card">
+                        <span>04</span>
+                        <h3>Another Chapter</h3>
+                        <p>
+                            Another year means another chapter,
+                            another collection of stories waiting
+                            to happen.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="birthday-line">
+                    Happy Birthday, Patan! ♡
+                </div>
+
+                <button class="next-btn" onclick="nextPage()">
+                    NEXT →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             04 — FOUR CHAPTERS
+             THIS PAGE IS SCROLLABLE
+        ====================================== -->
+
+        <section class="page chapter-page" id="page4">
+
+            <div class="chapter-wrapper">
+
+                <div class="chapter-heading">
+
+                    <div class="small-label">
+                        ✿ THE LITTLE TIMELINE ✿
+                    </div>
+
+                    <h1>Four Little Chapters</h1>
+
+                    <p>
+                        Four pictures, four little pieces,
+                        and a few words in between.
+                    </p>
+
+                </div>
+
+
+                <div class="chapter-scroll">
+
+                    <!-- CHAPTER 1 -->
+
+                    <article class="story">
+
+                        <div class="story-number">
+                            01
+                        </div>
+
+                        <div class="story-line"></div>
+
+                        <div class="story-card">
+
+                            <img
+                                src="images/birthday-1.jpg"
+                                alt="Birthday memory one"
+                            >
+
+                            <div class="story-text">
+
+                                <span>THE BEGINNING</span>
+
+                                <h2>The Day You Were Born</h2>
+
+                                <p>
+                                    Every story starts somewhere.
+                                    This is the beginning of yours —
+                                    the first page of a life that would
+                                    continue to grow, change, learn,
+                                    laugh, and collect countless little
+                                    memories along the way.
+                                </p>
+
+                                <p>
+                                    Maybe nobody knew exactly what the
+                                    future would look like back then,
+                                    but here you are now, standing in
+                                    another chapter.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CHAPTER 2 -->
+
+                    <article class="story">
+
+                        <div class="story-number">
+                            02
+                        </div>
+
+                        <div class="story-line"></div>
+
+                        <div class="story-card reverse">
+
+                            <div class="story-text">
+
+                                <span>THE JOURNEY</span>
+
+                                <h2>Growing Up</h2>
+
+                                <p>
+                                    Growing up is rarely a straight line.
+                                    There are good days, confusing days,
+                                    unexpected turns, little victories,
+                                    mistakes, and moments when you slowly
+                                    realize how much you have changed.
+                                </p>
+
+                                <p>
+                                    Every year adds something to the story:
+                                    a lesson, a memory, a new perspective,
+                                    or simply a better understanding of
+                                    yourself.
+                                </p>
+
+                            </div>
+
+                            <img
+                                src="images/birthday-2.jpg"
+                                alt="Birthday memory two"
+                            >
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CHAPTER 3 -->
+
+                    <article class="story">
+
+                        <div class="story-number">
+                            03
+                        </div>
+
+                        <div class="story-line"></div>
+
+                        <div class="story-card">
+
+                            <img
+                                src="images/birthday-3.jpg"
+                                alt="Birthday memory three"
+                            >
+
+                            <div class="story-text">
+
+                                <span>THE LITTLE THINGS</span>
+
+                                <h2>Moments That Stay</h2>
+
+                                <p>
+                                    Sometimes the things we remember
+                                    aren't the biggest events.
+                                </p>
+
+                                <p>
+                                    They are the tiny conversations,
+                                    ridiculous jokes, unexpected pictures,
+                                    random moments, and ordinary days
+                                    that somehow became special.
+                                </p>
+
+                                <p>
+                                    Those little things may seem simple
+                                    at the time, but later they become
+                                    pieces of a much bigger story.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CHAPTER 4 -->
+
+                    <article class="story">
+
+                        <div class="story-number">
+                            04
+                        </div>
+
+                        <div class="story-line"></div>
+
+                        <div class="story-card reverse">
+
+                            <div class="story-text">
+
+                                <span>THE PERSON YOU ARE TODAY</span>
+
+                                <h2>Another Chapter Begins</h2>
+
+                                <p>
+                                    And here you are now, standing at
+                                    another little beginning.
+                                </p>
+
+                                <p>
+                                    There are still so many places you
+                                    haven't seen, people you haven't met,
+                                    stories you haven't written, and
+                                    memories you haven't made yet.
+                                </p>
+
+                                <p>
+                                    So here's to whatever comes next.
+                                    Take your time, enjoy the little things,
+                                    laugh whenever you can, and keep becoming
+                                    the person you want to be.
+                                </p>
+
+                            </div>
+
+                            <img
+                                src="images/birthday-4.jpg"
+                                alt="Birthday memory four"
+                            >
+
+                        </div>
+
+                    </article>
+
+                    <div class="chapter-end">
+                        ✦ END OF THIS LITTLE CHAPTER ✦
+                    </div>
+
+                </div>
+
+
+                <button class="next-btn chapter-next" onclick="nextPage()">
+                    NEXT →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             05 — WISHES
+        ====================================== -->
+
+        <section class="page" id="page5">
+
+            <div class="normal-page">
+
+                <div class="small-label">
+                    ✦ A FEW WISHES FOR YOU ✦
+                </div>
+
+                <h1>
+                    Things I Hope<br>
+                    For You
+                </h1>
+
+                <p class="subtitle">
+                    A few little wishes for this new chapter.
+                </p>
+
+                <div class="wish-grid">
+
+                    <div class="wish-card">
+                        <span>♡</span>
+                        <h3>Happiness</h3>
+                        <p>
+                            I hope you find happiness in places you
+                            didn't expect to find it.
+                        </p>
+                    </div>
+
+                    <div class="wish-card">
+                        <span>✦</span>
+                        <h3>Good Memories</h3>
+                        <p>
+                            May this year give you memories that you'll
+                            want to keep for a very long time.
+                        </p>
+                    </div>
+
+                    <div class="wish-card">
+                        <span>✿</span>
+                        <h3>Peace</h3>
+                        <p>
+                            I hope you get moments where everything
+                            feels a little lighter and calmer.
+                        </p>
+                    </div>
+
+                    <div class="wish-card">
+                        <span>♡</span>
+                        <h3>Good Things</h3>
+                        <p>
+                            May good things find you, even on ordinary
+                            days when you're not expecting them.
+                        </p>
+                    </div>
+
+                </div>
+
+                <button class="next-btn" onclick="nextPage()">
+                    NEXT →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             06 — BALLOON POP
+        ====================================== -->
+
+        <section class="page" id="page6">
+
+            <div class="balloon-page">
+
+                <div class="small-label">
+                    ✦ A LITTLE GAME ✦
+                </div>
+
+                <h1>Pop the Balloons!</h1>
+
+                <p class="subtitle">
+                    There are little messages hiding inside.
+                    Pop them all. ♡
+                </p>
+
+                <div class="pop-area">
+
+                    <button
+                        class="pop-balloon pink-pop"
+                        data-message="You deserve good things. ♡">
+                        <span></span>
+                    </button>
+
+                    <button
+                        class="pop-balloon blue-pop"
+                        data-message="I hope this year is kinder to you.">
+                        <span></span>
+                    </button>
+
+                    <button
+                        class="pop-balloon cream-pop"
+                        data-message="Keep laughing at the dumbest things.">
+                        <span></span>
+                    </button>
+
+                    <button
+                        class="pop-balloon pink-pop"
+                        data-message="There are still so many memories waiting.">
+                        <span></span>
+                    </button>
+
+                    <button
+                        class="pop-balloon blue-pop"
+                        data-message="Please don't forget to enjoy the little things.">
+                        <span></span>
+                    </button>
+
+                    <button
+                        class="pop-balloon cream-pop"
+                        data-message="One more year of being you. Not bad. ♡">
+                        <span></span>
+                    </button>
+
+                </div>
+
+                <div class="counter">
+                    <span id="balloonCount">0</span> / 6 popped
+                </div>
+
+                <button
+                    class="next-btn hidden-next"
+                    id="balloonNext"
+                    onclick="nextPage()">
+                    NEXT →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             07 — BUAYA ITERA
+        ====================================== -->
+
+        <section class="page" id="page7">
+
+            <div class="buaya-page">
+
+                <div class="buaya-decor decor-b1">✦</div>
+                <div class="buaya-decor decor-b2">♡</div>
+                <div class="buaya-decor decor-b3">✿</div>
+
+                <div class="small-label">
+                    ✦ A SPECIAL LITTLE PAGE ✦
+                </div>
+
+                <h1>BUAYA ITERA</h1>
+
+                <div class="buaya-card">
+
+                    <div class="buaya-icon">
+                        🐊
+                    </div>
+
+                    <p class="buaya-intro">
+                        Okay, Buaya Itera.
+                    </p>
+
+                    <p>
+                        Since it's your birthday, I guess I have to
+                        be a little nice today.
+                        Jangan besar kepala dulu—ini cuma berlaku
+                        untuk hari ini. :P
+                    </p>
+
+                    <p>
+                        But seriously, I hope you know that you deserve
+                        good things too. Semoga di umur yang baru ini
+                        kamu ketemu lebih banyak hal yang bikin kamu
+                        senang, lebih banyak alasan buat ketawa,
+                        dan lebih banyak cerita yang nantinya bakal
+                        seru kalau diingat lagi.
+                    </p>
+
+                    <p>
+                        Anyway, happy birthday, Buaya Itera.
+                        Jangan berubah terlalu banyak, nanti aku bingung
+                        mau manggil kamu apa lagi. ♡
+                    </p>
+
+                    <div class="buaya-sign">
+                        — from someone who gave you this ridiculous nickname
+                    </div>
+
+                </div>
+
+                <button class="next-btn" onclick="nextPage()">
+                    NEXT →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             08 — MUSIC
+        ====================================== -->
+
+        <section class="page" id="page8">
+
+            <div class="music-page">
+
+                <div class="small-label">
+                    ✦ A LITTLE SONG ✦
+                </div>
+
+                <h1>
+                    A Birthday<br>
+                    Song
+                </h1>
+
+                <p class="subtitle">
+                    A little soundtrack for this little birthday journey.
+                </p>
+
+                <div class="music-card">
+
+                    <div class="music-note">♫</div>
+
+                    <div class="music-info">
+
+                        <span>NOW PLAYING</span>
+
+                        <h2>Happy Birthday ♡</h2>
+
+                        <p>
+                            A little song to accompany the rest
+                            of this journey.
+                        </p>
+
+                    </div>
+
+                    <div class="music-player">
+                        <button onclick="toggleMusic()" id="musicButton">
+                            ▶
+                        </button>
+
+                        <div class="music-progress">
+                            <div id="musicProgress"></div>
+                        </div>
+
+                        <span id="musicTime">
+                            00:00
+                        </span>
+                    </div>
+
+                </div>
+
+                <button class="next-btn" onclick="nextPage()">
+                    NEXT →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             09 — CAKE
+        ====================================== -->
+
+        <section class="page" id="page9">
+
+            <div class="cake-page">
+
+                <div class="small-label">
+                    ✦ ONE LAST THING ✦
+                </div>
+
+                <h1>Make a Wish ♡</h1>
+
+                <p class="subtitle">
+                    Take a little moment for yourself...
+                </p>
+
+                <div class="cake">
+
+                    <div class="flame" id="flame"></div>
+
+                    <div class="candle"></div>
+
+                    <div class="cake-top"></div>
+
+                    <div class="cake-body">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <div class="plate"></div>
+
+                </div>
+
+                <p class="blow-text">
+                    Make a wish...<br>
+                    then blow the candle. 🕯️
+                </p>
+
+                <button class="blow-btn" onclick="blowCandle()">
+                    ✦ TIUP LILIN ✦
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             10 — FINAL
+        ====================================== -->
+
+        <section class="page final-page" id="page10">
+
+            <canvas id="fireworks"></canvas>
+
+            <!-- EXTRA FINAL ORNAMENTS -->
+
+            <div class="final-balloon final-b1"></div>
+            <div class="final-balloon final-b2"></div>
+            <div class="final-balloon final-b3"></div>
+
+            <div class="final-sparkle fs1">✦</div>
+            <div class="final-sparkle fs2">✧</div>
+            <div class="final-sparkle fs3">✦</div>
+            <div class="final-sparkle fs4">♡</div>
+
+            <div class="final-content">
+
+                <div class="small-label">
+                    ✦ THE LAST PAGE ✦
+                </div>
+
+                <h1>
+                    Happy<br>
+                    <em>Birthday!</em>
+                </h1>
+
+                <h2>Patan ♡</h2>
+
+                <div class="final-paper">
+
+                    <div class="paper-corner corner-one">
+                        ✿
+                    </div>
+
+                    <div class="paper-corner corner-two">
+                        ♡
+                    </div>
+
+                    <div class="paper-corner corner-three">
+                        ✦
+                    </div>
+
+                    <div class="paper-corner corner-four">
+                        ✧
+                    </div>
+
+                    <h3>
+                        Wish you all the best.
+                    </h3>
+
+                    <p>
+                        Semoga tahun ini membawa lebih banyak hal baik,
+                        lebih banyak alasan untuk tersenyum, dan lebih
+                        banyak momen kecil yang nantinya berubah menjadi
+                        kenangan indah.
+                    </p>
+
+                    <p>
+                        May this new chapter be kind to you.
+                        I hope you find happiness in unexpected places,
+                        courage when things get difficult, and plenty
+                        of reasons to keep moving forward.
+                    </p>
+
+                    <p>
+                        Semoga semua hal yang sedang kamu perjuangkan
+                        perlahan menemukan jalannya. Nggak harus semuanya
+                        datang sekaligus — semoga cukup satu per satu,
+                        dengan cara yang paling baik.
+                    </p>
+
+                    <div class="final-signature">
+                        Happy Birthday, once again. ♡
+                    </div>
+
+                </div>
+
+                <button class="back-btn" onclick="restartWebsite()">
+                    KEMBALI KE AWAL ♡
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- POPUP -->
+    <div id="messagePopup"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
